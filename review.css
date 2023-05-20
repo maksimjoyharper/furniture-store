@@ -1,0 +1,84 @@
+.container-review {
+  display: flex;
+  margin-top: 140px;
+  justify-content: space-between;
+  position: relative;
+}
+.review_img {
+  position: relative;
+  width: 564.29px;
+  height: 492.42px;
+
+  background: url(./images/review-green-circle.svg) no-repeat;
+}
+.review-image {
+  position: absolute;
+  width: 459.09px;
+  height: 492.42px;
+  left: 105.2px;
+  top: 0px;
+}
+.review_text {
+  width: 535.07px;
+  height: 191.36px;
+  left: 664.93px;
+  top: 105.41px;
+  position: absolute;
+}
+.review_text-title {
+  width: 535.07px;
+  height: 96px;
+  margin-top: 105px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #242424;
+}
+.review_text-content {
+  width: 535px;
+  height: 75px;
+  margin-top: 20px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #383738;
+}
+
+.review_text-user {
+  width: 129px;
+  height: 50px;
+  padding-left: 60px;
+  margin-top: 40px;
+  background: url(./images/review_text-user-photo.svg) no-repeat;
+}
+
+.review_text-user-name {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.review_text-user-rating {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  margin-top: 7px;
+  margin-left: 8px;
+  margin-bottom: 3px;
+}
+
+.review-rating {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}

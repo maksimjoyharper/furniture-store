@@ -1,0 +1,141 @@
+footer {
+  width: 1440px;
+  height: 442px;
+
+  background-color: #305f64;
+}
+
+.footer {
+  width: 1200px;
+  height: 238px;
+
+  padding: 103px 120px 0 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-dudeshape-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.footer-dudeshape-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.footer-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.footer-title-dudeshape-text {
+  margin-top: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.footer-dudeshape-icon {
+  width: 125px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+}
+.footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+p {
+  margin: 0;
+}
+
+.footer-dudeshape-icon > img {
+  background-color: #305f64;
+}
+
+.input-footer {
+  width: 105px;
+  height: 21px;
+  color: #859395;
+  border: none;
+  margin: 0 86px 0 22px;
+}
+.button-footer {
+  width: 28px;
+  height: 28px;
+  border: none;
+  padding: 0;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.button-footer > img {
+  border-radius: 50%;
+}
+form {
+  width: 253px;
+  height: 48px;
+  box-sizing: content-box;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.footer-title {
+  margin-bottom: 24px;
+}
+.footer-content-center-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin: 16px 0 16px 0;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  background: #407980;
+  border: none;
+}
+.footer-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-end-text {
+  margin: auto;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}

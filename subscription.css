@@ -1,0 +1,94 @@
+.container-subscription {
+  width: 100%;
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+.subscription {
+  width: 1200px;
+  height: 394.32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f6f6;
+}
+.subscription_text {
+  width: 605px;
+  height: 164px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subscription_text-title {
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #222222;
+  text-align: center;
+}
+.subscription_text-content {
+  margin: 0;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  text-align: center;
+}
+
+.subscription-form {
+  width: 472px;
+  height: 67px;
+  margin-top: 40px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subscription-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-register {
+  width: 148px;
+  height: 22px;
+  padding: 0;
+  border: none;
+}
+
+input::placeholder {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #bababa;
+}
+.button-register {
+  width: 125.32px;
+  height: 52px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  border: none;
+  color: #ffffff;
+  background-color: #305f64;
+  margin-right: 19px;
+  cursor: pointer;
+}
+
+.input-register-box {
+  margin-left: 17.5px;
+  padding-left: 28px;
+  background: url(./images/input-register_icon.svg) no-repeat;
+  background-position: left;
+}

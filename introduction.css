@@ -1,0 +1,118 @@
+.trusted-companies {
+  width: 100%;
+  box-sizing: content-box;
+  margin-bottom: 140px;
+}
+
+.trusted-by {
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #244d4d;
+}
+.trusted {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.intro-container {
+  width: 100%;
+  box-sizing: content-box;
+  display: flex;
+  gap: 135px;
+}
+
+.content {
+  width: 631.24px;
+  height: 612.21px;
+  position: relative;
+  box-sizing: content-box;
+}
+.intro-image {
+  position: absolute;
+  width: 631.24px;
+  height: 586.21px;
+  left: 0px;
+  top: 26px;
+  z-index: -1;
+  background: #dee4e2;
+}
+
+.intro-image_sofa {
+  border-style: none;
+  border: none;
+  line-height: 0;
+}
+.intro-right {
+  min-width: 436px;
+  align-self: center;
+}
+
+.intro-right-title-text {
+  margin-bottom: 40px;
+}
+
+.intro-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #244d4d;
+  margin-bottom: 14px;
+}
+
+.intro-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #444444;
+}
+
+.intro-right-best-qual {
+  min-width: 376px;
+  padding-left: 78px;
+  background: url(./images/icon-intro1.svg) no-repeat;
+}
+
+.intro-right-title {
+  margin-bottom: 14px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #244d4d;
+}
+
+.intro-right-text {
+  margin: 0;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #383738;
+}
+
+.intro-right-secure {
+  min-width: 376px;
+  padding-left: 78px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background: url(./images/icon-intro2.svg) no-repeat;
+}
+
+.intro-right-free-shop {
+  min-width: 376px;
+  padding-left: 78px;
+  background: url(./images/icon-intro3.svg) no-repeat;
+}
