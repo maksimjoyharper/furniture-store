@@ -2,7 +2,7 @@
   width: 100%;
   box-sizing: content-box;
   display: flex;
-  margin-top: 27px;
+  margin-top: 100px;
 }
 .main-container {
   width: 100%;
@@ -43,6 +43,7 @@
   height: 56px;
   padding: 0;
   background: #ffffff;
+  transition: background 0.3s;
   border: none;
   color: #154444;
   font-family: "DM Sans";
@@ -50,4 +51,8 @@
   font-weight: 400;
   font-size: 20px;
   cursor: pointer;
+}
+
+.main-container-button:hover {
+  background: #b9b9b9;
 }

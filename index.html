@@ -26,34 +26,35 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@700&display=swap"
         rel="stylesheet">
 </head>
+<header>
+    <nav class="header">
+        <a class="header-name" href="">DudeShape</a>
+        <div class="header-nav">
+            <a class="header-nav-text" href="#home">
+                <span>Home</span>
+            </a>
+            <a class="header-nav-text" href="#about">
+                <p>About</p>
+            </a>
+            <a class="header-nav-text" href="#features">
+                <p>Features</p>
+            </a>
+            <a class="header-nav-text" href="#contact">
+                <p>Contact</p>
+            </a>
+
+        </div>
+        <div class="menu-search">
+            <img class="header-icon-search" src="./images/loupe_1-icon.svg" alt="">
+            <img class="header-icon-search" src="./images/menu-icon.svg" alt="">
+        </div>
+    </nav>
+
+</header>
 
 <body>
-    <header>
-        <nav class="header">
-            <a class="header-name" href="">DudeShape</a>
-            <div class="header-nav">
-                <a class="header-nav-text" href="">
-                    <span>Home</span>
-                </a>
-                <a class="header-nav-text" href="">
-                    <p>About</p>
-                </a>
-                <a class="header-nav-text" href="">
-                    <p>Features</p>
-                </a>
-                <a class="header-nav-text" href="">
-                    <p>Contact</p>
-                </a>
 
-            </div>
-            <div class="menu-search">
-                <img class="header-icon-search" src="./images/loupe_1-icon.svg" alt="">
-                <img src="./images/menu-icon.svg" alt="">
-            </div>
-        </nav>
-
-    </header>
-    <main class="main">
+    <main class="main" id="home">
         <div class="main-container">
             <img class="main-image" src="./images/chair.jpg" alt="chair">
             <div class="main-container-right">
@@ -79,7 +80,7 @@
         </div>
     </section>
 
-    <section class="intro-container">
+    <section class="intro-container" id="about">
         <div class="content">
             <div class="intro-image">
 
@@ -116,7 +117,7 @@
 
     </section>
 
-    <section class="conteiner-popular_furniture">
+    <section class="conteiner-popular_furniture" id="features">
         <div class="popular_furniture-title">
             <span>Our Popular Furniture</span>
         </div>
@@ -251,24 +252,27 @@
 
     </section>
 
-    <section class="container-subscription">
+    <section class="container-subscription" id="contact">
         <div class="subscription">
             <div class="subscription_text">
-                <div>
-                    <p class="subscription_text-title">Subscribe to get the latest news</p>
-                    <p class="subscription_text-title">about us</p>
-                </div>
+
+                <span class="subscription_text-title">Subscribe to get the latest news
+
+                    about us
+                </span>
+
                 <div class="subscription-content">
                     <p class="subscription_text-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     </p>
                     <p class="subscription_text-content">eiusmod tempor incididunt ut labore at dolore.</p>
 
-                    <div class="subscription-form">
-                        <form class="input-register-box">
-                            <input class="input-register" type="email" placeholder="Enter your email">
-                        </form>
-                        <button class="button-register">Register</button>
-                    </div>
+
+                    <form class="subscription-content-form" action="">
+                        <img class="subscription-icon" src="./images/input-register_icon.svg" alt="">
+                        <input class="subscription-input" type="email" name="email" placeholder="Enter your email">
+                        <button class="subscription-button">Register</button>
+                    </form>
+
                 </div>
             </div>
         </div>
@@ -318,7 +322,7 @@
             <span class="footer-dudeshape-text">Subscribe to get the latest <br>
                 news from us</span>
 
-            <form>
+            <form class="footer-form">
                 <input class="input-footer" type="email" name="email" placeholder="Email Address">
                 <button class="button-footer" type="submit"> <img src="./images/input-footer-arrow.svg" alt=""></button>
             </form>
@@ -329,7 +333,7 @@
 
     <div class="footer-end">
         <div class="line"></div>
-        <a href=""><span class="footer-end-text">Copyright @ 2021. Crafted with love.</span></a>
+        <a class="footer-end-text" href=""><span>Copyright @ 2021. Crafted with love.</span></a>
 
     </div>
 </footer>

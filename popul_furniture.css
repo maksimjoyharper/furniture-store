@@ -105,3 +105,8 @@
   color: #ffffff;
   cursor: pointer;
 }
+
+.button:hover {
+  background-color: #1a9393;
+  color: #010101;
+}

@@ -1,14 +1,12 @@
 footer {
-  width: 1440px;
+  margin-top: 140px;
+  max-width: 1440px;
   height: 442px;
-
-  background-color: #305f64;
+  background: #305f64;
+  box-sizing: border-box;
 }
 
 .footer {
-  width: 1200px;
-  height: 238px;
-
   padding: 103px 120px 0 120px;
   display: flex;
   justify-content: space-between;
@@ -72,32 +70,49 @@ p {
   background-color: #305f64;
 }
 
-.input-footer {
-  width: 105px;
-  height: 21px;
-  color: #859395;
-  border: none;
-  margin: 0 86px 0 22px;
-}
-.button-footer {
-  width: 28px;
-  height: 28px;
-  border: none;
-  padding: 0;
-  background-color: #ffffff;
-  cursor: pointer;
-}
-
-.button-footer > img {
-  border-radius: 50%;
-}
-form {
+.footer-form {
+  position: relative;
   width: 253px;
   height: 48px;
   box-sizing: content-box;
   background-color: #ffffff;
   display: flex;
   align-items: center;
+}
+
+.input-footer {
+  width: 253px;
+  height: 48px;
+  color: #859395;
+  border: none;
+  padding: 0;
+  padding-left: 22px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.input-footer:hover {
+  background: #e1e1e1;
+}
+
+.button-footer {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 213px;
+  top: 11px;
+  border: none;
+  padding: 0;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.button-footer > img {
+  border-radius: 50%;
 }
 
 .footer-title {
@@ -126,6 +141,7 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 
 .footer-end-text {
@@ -138,4 +154,8 @@ form {
   color: #ffffff;
   text-decoration: none;
   text-align: center;
+}
+
+.footer-end-text:hover {
+  color: #b1b0b0;
 }

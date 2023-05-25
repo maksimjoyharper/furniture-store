@@ -46,6 +46,16 @@
   text-decoration: none;
 }
 
+.all_furniture-text:hover {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  color: #154444;
+  text-decoration: none;
+}
+
 .all_furniture-text_active {
   font-family: "DM Sans";
   font-style: normal;
@@ -121,6 +131,13 @@
   line-height: 21px;
   color: #808080;
 }
+
+.content-right-block:hover {
+  color: #ffffff;
+  background-color: #154444;
+  border: 1.5px solid #d9dce5;
+}
+
 .content-right-block_green {
   width: 222px;
   height: 90px;

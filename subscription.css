@@ -1,5 +1,6 @@
 .container-subscription {
-  width: 100%;
+  width: 1200px;
+  height: 394.32px;
   margin-top: 140px;
   margin-bottom: 140px;
 }
@@ -19,7 +20,10 @@
 }
 
 .subscription_text-title {
+  width: 605px;
+  height: 96px;
   margin: 0;
+  margin-top: 68px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -56,39 +60,47 @@
   align-items: center;
 }
 
-.input-register {
-  width: 148px;
-  height: 22px;
-  padding: 0;
-  border: none;
+.subscription-content-form {
+  width: 472px;
+  height: 67px;
+  position: relative;
+  margin-top: 40px;
 }
-
-input::placeholder {
+.subscription-icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 26px;
+  left: 18px;
+}
+.subscription-input {
+  width: 472px;
+  height: 67px;
+  padding-left: 43px;
+  border: none;
+  color: #bababa;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #bababa;
 }
-.button-register {
+.subscription-button {
   width: 125.32px;
   height: 52px;
+  /* margin-right: 20px;
+  margin-left: 114px; */
+  position: relative;
+  left: 379.47px;
+  top: -59px;
+  padding: 0;
+  background: #305f64;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-  border: none;
   color: #ffffff;
-  background-color: #305f64;
-  margin-right: 19px;
+  border: none;
   cursor: pointer;
-}
-
-.input-register-box {
-  margin-left: 17.5px;
-  padding-left: 28px;
-  background: url(./images/input-register_icon.svg) no-repeat;
-  background-position: left;
 }
