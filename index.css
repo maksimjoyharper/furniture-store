@@ -21,7 +21,7 @@ header {
   width: 100%;
   box-sizing: content-box;
   height: 29.04px;
-  margin-top: 44px;
+  padding-top: 44px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -72,3 +72,15 @@ header {
   padding-right: 30px;
   cursor: pointer;
 }
+
+/* @supports (background-color: aqua) {
+  body {
+    background-color: aqua;
+  }
+}
+
+@supports not (background-color: aqua) {
+  body {
+    background-color: #161616;
+  }
+} */
